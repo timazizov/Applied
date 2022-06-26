@@ -1,0 +1,34 @@
+@media (max-width: 575px) {
+    .discount {
+        height: 32px;
+        font-size: 12px;
+        line-height: 168%;
+    }
+    .header {
+        height: 42px;
+        &__nav {
+            display: none
+        }
+        &__icon {
+            &_mobile {
+                display: none;
+            }
+        }
+
+    }
+    .rubber {
+        display: none;
+    }
+    .dumbbells {
+        display: none;
+    }
+    .workouts {
+        display: none;
+    }
+    .products {
+        display: none;
+    }
+    .email {
+        display: none;
+    }
+}

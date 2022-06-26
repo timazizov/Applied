@@ -1,0 +1,43 @@
+.dumbbells {
+    height: 620px;
+    background: black;
+    padding: 80px 0 80px 40px;
+    &__img {
+        width: 680px;
+        height: 460px;
+        float: left;
+    }
+    &__list {
+        margin: 25px 0 0 140px;
+        width: 425px;
+        list-style-type: none;
+    }
+    &__item {
+        position: relative;
+        font-family: 'Arca Majora 3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 167.5%;
+        color: #FFFFFF;
+        margin-top: 16px;
+        span {
+            position: absolute;
+            left: -19px;
+        }
+    }
+    &__right {
+        width: 50%;
+        float: right;
+    }
+
+    &__header {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 167.5%;
+        color: #FFFFFF;
+        margin: 96px 0 0 123px;
+    }
+}

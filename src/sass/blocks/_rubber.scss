@@ -1,0 +1,56 @@
+.rubber {
+    background-color: #000;
+    padding-left: 80px;
+    position: relative;
+    &__header {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 55px;
+    }
+    &__img {
+        width: 720px;
+        height: 620px;
+    }
+    &__right {
+        width: 50%;
+        height: 720px;
+        overflow: auto;
+    }
+    &__left {
+        width: 50%;
+        height: 720px;
+        overflow: auto;
+        float: left;
+    }
+    &__descr {
+        margin-top: 126px;
+        width: 600px;
+        height: 138px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 167.5%;
+        color: #FFFFFF;
+    }
+    
+    &__question {
+        margin-top: 80px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 167.5%;
+        color: #FFFFFF;
+    }
+    &__link {
+        text-decoration: none;
+        color: #fff;
+    }
+}

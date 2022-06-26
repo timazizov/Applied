@@ -1,0 +1,36 @@
+.header {
+    padding: 16px 40px;
+    max-height: 52px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        width: 543px;
+        margin: 0 auto
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__logo {
+        font-size: 18px;
+    }
+    &__icons {
+        width: 83px;
+        display: flex;
+        justify-content: space-between
+    }
+    &__link {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: 0.175em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
